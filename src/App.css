@@ -1,0 +1,612 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+.primaryColor {
+  color: #1089ff;
+}
+.primaryBgColor {
+  background-color: #1089ff;
+}
+
+.NavText {
+  font-weight: 500;
+  color: #000 !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.NavText:hover {
+  color: #1089ff !important;
+}
+.active {
+  color: #1089ff;
+}
+.Header {
+  background-image: url("https://eduguard-html.netlify.app/dist/images/banner/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .bannerImg{
+  width: 90%;
+} */
+a {
+  text-decoration: none !important;
+}
+.CategoriesBox {
+  height: 220px !important;
+  z-index: 999;
+  transition-duration: 2s;
+}
+.CategoriesBox:hover {
+  box-shadow: 0px 16px 72px 0px #0000001f;
+  transition-duration: 1s !important;
+}
+.swiper {
+  height: 320px;
+}
+.popularCourse {
+  background-color: #f5f5f8;
+}
+.courseCard {
+  background-color: white;
+}
+.courseCard img {
+  width: 100%;
+}
+.LearnWitheLearning {
+  background-color: #f1f1f6;
+}
+.LearnBox {
+  background-color: white;
+}
+.LearnBox:hover {
+  box-shadow: 0px 16px 72px 0px #0000001f;
+  transition-duration: 1s;
+}
+.LearningDots {
+  display: inline-flex;
+  width: 72px;
+  height: 72px;
+  margin-right: 16px;
+  background-color: #ecf6ff;
+  color: #1089ff;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  text-decoration: none;
+  overflow: hidden;
+}
+.StudentSays {
+  background-color: #f3f3f7;
+}
+.StudentSaysData {
+  height: auto !important;
+}
+.swiper {
+  height: auto !important;
+}
+/* .instructorInfo{
+  margin-top: -25px !important;
+  z-index: 999 !important;
+
+} */
+
+.becomeInstructor {
+  background-color: #ebebf2;
+}
+.InstructorBox {
+  margin-top: 120px;
+  background-color: #f7f7fa;
+  border-radius: 15px;
+}
+.InstructorBox img {
+  margin-top: -100px;
+}
+.footer {
+  background-color: rgb(32, 32, 32);
+}
+
+.courseBreadcrumb {
+  background-color: rgb(243, 243, 247);
+}
+
+.courseList {
+  background-color: #ebebf2;
+}
+.faq {
+  background-color: rgb(235, 235, 242);
+}
+.contact {
+  background-color: #f0f0f6;
+}
+.contactIcon {
+  display: inline-flex;
+  width: 72px;
+  height: 72px;
+  margin-right: 16px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10%;
+  border: none;
+  text-decoration: none;
+  overflow: hidden;
+}
+.profilePic {
+  display: inline-flex;
+  margin-right: 16px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  text-decoration: none;
+  overflow: hidden;
+}
+.categoryIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  text-decoration: none;
+  overflow: hidden;
+}
+.contactIcon1 {
+  background-color: #e7f3ff;
+}
+.contactIcon1 svg {
+  color: #1089ff;
+}
+.contactIcon2 {
+  background-color: #fff1e8;
+}
+.contactIcon2 svg {
+  color: #ff7a1a;
+}
+
+.contactIcon3 {
+  background-color: #e5f7f4;
+}
+.contactIcon3 svg {
+  color: #00af91;
+}
+.secondaryBgColor {
+  background-color: #ebebf2;
+}
+.pointer {
+  cursor: pointer;
+}
+/* button  */
+
+/* From cssbuttons.io by @rhino-corey */
+.cssButton {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  text-align: center;
+  border: none;
+  clip-path: polygon(7% 0, 93% 0, 100% 50%, 93% 100%, 7% 100%, 0 50%);
+  background-color: #000000;
+  background-image: radial-gradient(
+    200% 70% at center 20%,
+    rgba(48, 44, 45, 1) -30%,
+    rgba(50, 46, 47, 1) 49%,
+    rgba(22, 18, 19, 1) 50%,
+    rgba(22, 18, 19, 1) 150%
+  );
+  background-repeat: no-repeat;
+  transition: background-position-y ease-in-out 250ms;
+}
+
+button:hover {
+  background-position-y: -50px;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+/* End Button  */
+
+/* From cssbuttons.io by @adamgiebl */
+/* Hide the default checkbox */
+.containerCheck input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.containerCheck {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 1.3em;
+  width: 1.3em;
+  background-color: #ccc;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containerCheck input:checked ~ .checkmark {
+  background-color: #47da99;
+  animation: pop 0.5s;
+  animation-direction: alternate;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containerCheck input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containerCheck .checkmark:after {
+  left: 0.45em;
+  top: 0.25em;
+  width: 0.25em;
+  height: 0.5em;
+  border: solid white;
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotate(45deg);
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #96cbff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3499fd;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0080ff;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+.messages-box,
+.chat-box {
+  height: 520px !important;
+  overflow-y: scroll;
+}
+.messages-box {
+  height: 529px !important;
+  overflow-y: scroll;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+input::placeholder {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.purchaseArea {
+  margin-top: -175px !important;
+}
+.dashboardBg {
+  background-color: #e7ecf8 !important;
+}
+.dProfile {
+  background-color: #f5f7fa;
+}
+.mobile-dashboard {
+  display: none !important;
+}
+@media (max-width: 767.98px) {
+  .mobile-dashboard {
+    display: block !important;
+    /* overflow-x: scroll; */
+  }
+  .desktop-dashboard {
+    display: none !important;
+  }
+  .loginFrom .w-75 {
+    width: 100% !important;
+  }
+  .dashboardProfile {
+    flex-direction: column;
+    text-align: center;
+    /* padding-top: 20px; */
+  }
+}
+/* ---------------
+      Form 
+------------------*/
+
+.form_layout {
+  font-family: "Open Sans", sans-serif !important;
+  /* align-items: flex-start !important; */
+}
+.form_border {
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+}
+.form_border:hover {
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
+    0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+.form_title {
+  background-color: white;
+  border-top-color: rgb(115, 73, 189);
+  border-top-width: 8px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 24px;
+  border-style: solid;
+  border-radius: 8px;
+}
+.form_title .form_border_style {
+  border: none !important;
+  font-size: 32px;
+}
+.form_title .form_border_style:focus {
+  outline: none !important;
+  color: #212529;
+  background-color: none !important;
+  border-color: none !important;
+  font-size: 32px;
+  box-shadow: none !important;
+}
+.form_title .form_border_style::-webkit-input-placeholder {
+  font-size: 32px;
+  line-height: 3;
+}
+.form_title_name {
+  padding-left: 10px;
+}
+.form_assign {
+  background-color: white;
+  border-top-color: rgb(115, 73, 189);
+  border-top-width: 8px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  border-style: solid;
+  border-radius: 8px;
+}
+.form_assign_title {
+  font-size: 24px;
+  font-weight: 400;
+}
+.form_question {
+  background-color: white;
+  border-bottom-width: 0px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  border-style: solid;
+  border-radius: 8px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border: 1px solid #dadce0;
+}
+.form_question:hover {
+  /* border-left-color: rgb(66,133,244); */
+  /* border-left-width: 6px; */
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
+    0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+.form_question_border_style {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  font-size: 16px;
+  border-bottom-color: rgb(115, 73, 189) !important;
+  border-bottom-width: 2px !important;
+  border-style: solid;
+}
+.form_question_border_style:focus {
+  outline: none !important;
+  color: #212529;
+  background-color: none !important;
+  border-color: none !important;
+  font-size: 16px;
+  box-shadow: none !important;
+}
+.form_question_border_style::-webkit-input-placeholder {
+  font-size: 16px;
+}
+.form-control {
+  border-radius: 0 !important;
+}
+.form_options_border_style {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  font-size: 12px !important;
+  border-bottom-color: rgba(167, 167, 167, 0.938) !important;
+  border-bottom-width: 0px !important;
+  border-style: solid;
+}
+.form_options_border_style:focus {
+  outline: none !important;
+  color: #212529;
+  background-color: none !important;
+  border-color: none !important;
+  box-shadow: none !important;
+  border-bottom-width: 1px !important;
+}
+/* .form_options_border_style:hover{
+  border-bottom-color: rgb(115, 73, 189) !important;
+} */
+.form_options_border_style::-webkit-input-placeholder {
+  font-size: 10px;
+  line-height: 1;
+}
+.checkbox-round {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+.checkbox_size {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+.form_question_add_btn {
+  background-color: rgb(115, 73, 189);
+  padding: 6px 30px;
+  border: 0px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.form_question_submit_btn {
+  background-color: rgb(115, 73, 189);
+  width: 100%;
+  border: 0px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+}
+.form_question_show {
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+  /* padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 12px; */
+}
+.form_question_show:hover {
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
+    0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+.form_question_show_fontSize {
+  font-size: 26px;
+  font-weight: 500;
+}
+.form_question_ans_fontSize {
+  font-size: 14px;
+  font-weight: 300;
+}
+.form_question_action_btn {
+  font-size: 20px;
+  color: #000;
+}
+.form_question_update_btn {
+  background-color: rgb(117, 39, 252);
+  padding: 6px 30px;
+  border: 0px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.form_selected_user_fontSize {
+  font-size: 14px !important;
+}
+.form_responses_submitted {
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  border-top-color: rgb(115, 73, 189);
+  border-top-width: 8px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  border-style: solid;
+}
+.form_responses_submitted:hover {
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
+    0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+.form_responses_pending_forms {
+  border-bottom: 2px solid gray;
+  cursor: pointer;
+  font-size: 14px;
+}
+.form_responses_submitted_forms {
+  border-bottom: 2px solid gray;
+  cursor: pointer;
+  font-size: 14px;
+}
+.form_responses_result{
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 24px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.form_responses_result:hover{
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
+  0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+.form_assign_user_fontSize{
+  font-size: 12px;
+  font-weight: 300;
+}

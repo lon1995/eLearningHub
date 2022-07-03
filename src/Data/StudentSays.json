@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Boboc Gheorghe",
+    "subtitle": "Developer",
+    "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1632030426912.jpg",
+    "rating": 5,
+    "description": "Once Upon A Time, I Hated JavaScript. BUT Now, I Started To Love JavaScript. Thanks, My Mentor From eLearning, My Brother Constantinescu Avram."
+  },
+  {
+    "title": "Munteanu Tudor",
+    "subtitle": "Developer",
+    "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1623253204842.jpg",
+    "rating": 5,
+    "description": "Joining the eLearning Web Development course was a turning point for me. In the past, I was trying to learn a little bit but it was not possible to move forward"
+  },
+  {
+    "title": "Ghetivu Maxim",
+    "subtitle": "Developer",
+    "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1642387589071.jpg",
+    "rating": 4,
+    "description": "After taking the course from Programming Hero, I developed a dedication to my work that I did not have before. Also, I learn more about web application technology"
+  },
+  {
+    "title": "Cornel Cernei",
+    "subtitle": "Developer",
+    "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1637388001199.jpg",
+    "rating": 5,
+    "description": "This course was a life-changer for me. I learned how to stay consistent, persistent and more importantly, I learned 'how to learn'. The teaching style of eLearning is Great"
+  }
+]
