@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { getAll, patchData } from "../../api/api";
+import { deleteData, getAll, patchData } from "../../api/api";
 import useAuth from "../../Hooks/useAuth";
 import Translate from "./../Translate";
-import { BsX } from "react-icons/bs";
+import { BsX, BsTrash } from "react-icons/bs";
+import { async } from "@firebase/util";
 
 const QuizCom = ({ quiz, submitted }) => {
   const [users, setUsers] = useState([]);
@@ -63,7 +64,14 @@ const QuizCom = ({ quiz, submitted }) => {
     if (data?.modifiedCount) return alert("Student Added");
   };
 
-  console.log();
+  const handleDelete = async (id) => {
+    const deleteQuiz = await deleteData(`quiz/${id}`);
+    if (deleteQuiz?.deletedCount > 0) {
+      window.location.reload();
+    }
+    // console.log(deleteQuiz);
+    // console.log(id);
+  };
   return (
     <div>
       {subjects.map((i, index) => (
@@ -71,7 +79,11 @@ const QuizCom = ({ quiz, submitted }) => {
           className="form_responses_result my-4"
           onClick={() => handlesubIndex(i)}
         >
-          {index + 1}. {i}
+          <div className="d-flex justify-content-between">
+            <div>
+              {index + 1}. {i}
+            </div>
+          </div>
         </div>
       ))}
 
@@ -80,8 +92,11 @@ const QuizCom = ({ quiz, submitted }) => {
           <div className="row">
             <div className="col-md-8">
               <div className="form_border">
-                <div className="form_title fs-3">
+                <div className="form_title fs-3 d-flex justify-content-between">
                   <p>{subIndex?.[subQuiz]?.subject}</p>
+                  <div onClick={() => handleDelete(subIndex?.[subQuiz]?._id)}>
+                    <BsTrash />
+                  </div>
                 </div>
               </div>
               {submitted ? (
