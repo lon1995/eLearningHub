@@ -9,17 +9,17 @@ const Header = () => {
   return (
     <div className="Header">
       <div className="container">
-        <div className="row justify-content-center align-items-center py-2">
+        <div className="row justify-content-center align-items-center pt-2">
           <div className="col-md-6 py-5">
             <h1 className="display-3 fw-bolder">
               <Translate
-                text="Learn With Expert Anytime Anywhere."
+                text="Learn with Expert Anytime Anywhere"
                 type={trans}
               />
             </h1>
             <p className="fs-5 py-2 text-secondary">
               {useTranslate(
-                "Our Mission Is To Help People To Find The Best Course Online AndLearn With Expert Anytime, Anywhere.",
+                "Our Mission Is to Help People to Find the Best Course Online and Learn with Expert Anytime, Anywhere",
                 trans
               )}
             </p>

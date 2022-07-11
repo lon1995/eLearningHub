@@ -114,7 +114,7 @@ const Dashboard = () => {
                 </Link>
                 <Link to="/dashboard/attendQuiz">
                   <div className="py-3 NavText">
-                    <Translate text="  Attend Test" type={trans} />
+                    <Translate text=" Tests" type={trans} />
                   </div>
                 </Link>
                 {instructor && (
